@@ -5,6 +5,7 @@ description = "Pretraining architectures implemented from scratch in PyTorch"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "accelerate>=1.14.0",
     "dataset",
     "datasets>=5.0.1",
     "einops>=0.8.2",
